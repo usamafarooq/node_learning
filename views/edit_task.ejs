@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Create</title>
+</head>
+<body>
+<form method="post" action="/edit/<%=data[0].id%>">
+	<label>Name</label>
+	<input type="text" name="name" value="<%=data[0].name%>">
+	<label>Date</label>
+	<input type="date" name="date" value="<%=data[0].date%>">
+	<label>Type</label>
+	<input type="text" name="type" value="<%=data[0].type%>">
+	<input type="submit" name="" value="submit">
+</form>
+</body>
+</html>
